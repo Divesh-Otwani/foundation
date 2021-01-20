@@ -37,6 +37,7 @@ module Basement.Block.Base
     ) where
 
 import           GHC.Prim
+import           GHC.Exts (unsafeCoerce#)
 import           GHC.Types
 import           GHC.ST
 import           GHC.IO
